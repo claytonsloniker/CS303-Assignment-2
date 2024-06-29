@@ -32,7 +32,7 @@ int main()
 	list.printList();
 
 	// Test remove
-	cout << "Removed: " << list.remove(5) << endl;
+	cout << "Removed? (0 if failed, 1 if successful): " << list.remove(5) << endl;
 	list.printList();
 
 	// Test find

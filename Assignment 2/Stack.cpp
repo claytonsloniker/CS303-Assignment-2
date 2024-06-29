@@ -35,8 +35,9 @@ int Stack::average() {
 
 void Stack::printStack() {
 	// Added to visualize the stack works
+	cout << "Back - ";
 	for (auto i : StackVector) {
 		cout << i << " ";
 	}
-	cout << "\n\n";
+	cout << "- Top\n\n";
 }
